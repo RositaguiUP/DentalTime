@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+/*const mongoose = require('mongoose');
 const { stringify } = require('querystring');
 
 const movieSchema = new mongoose.Schema({
@@ -20,4 +20,4 @@ const movieSchema = new mongoose.Schema({
 
 const Movie = mongoose.model('Movies', movieSchema);
 
-module.exports = Movie;
+module.exports = Movie;*/

@@ -1,4 +1,4 @@
-const express = require('express');
+/*const express = require('express');
 const Movie = require('./../models/movie');
 const router = express.Router();
 
@@ -69,4 +69,4 @@ function saveMovieAndRedirect(path) {
     }
 }
 
-module.exports = router
+module.exports = router;*/
