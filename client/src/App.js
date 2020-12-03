@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './components/header';
+import Login from './views/login';
 import './App.css';
 
 
@@ -7,7 +7,7 @@ class App extends Component {
   state = {  }
   render() { 
     return ( <div>
-      <Header/>
+      <Login/>
     </div> );
   }
 }
