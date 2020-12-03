@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Navbar} from 'react-bootstrap';
+
 class Header extends Component {
     state = {  }
     render() { 
@@ -14,7 +15,7 @@ class Header extends Component {
                         height="30"
                         className="d-inline-block align-top"
                     />{' '}
-                    React Bootstrap
+                    DentalTime
                     </Navbar.Brand>
                 </Navbar>
             </React.Fragment>
