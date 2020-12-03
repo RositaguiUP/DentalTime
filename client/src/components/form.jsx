@@ -6,6 +6,9 @@ class Forms extends Component {
     render() { 
         return (
             <React.Fragment>
+
+                {/* <Image src="../../" /> */}
+
                 <Form className="form">
                 <Form.Group controlId="formBasicEmail">
                     <Form.Control type="email" placeholder="Correo" />
