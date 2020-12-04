@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import Header from "../components/header";
-import Forms from "../components/form";
+import RegisterForms from "../components/registerForm";
 import { Link } from "react-router-dom";
 
-class Login extends Component {
+class Register extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
         <Header />
         <main>
-          <Forms />
+          <RegisterForms />
         </main>
       </React.Fragment>
     );
   }
 }
 
-export default Login;
+export default Register;
