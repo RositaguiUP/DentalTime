@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../components/header';
+import Forms from '../components/form'
 
 class Login extends Component {
     state = {  }
@@ -7,6 +8,9 @@ class Login extends Component {
         return ( 
             <React.Fragment>
                 <Header/>
+                <main>
+                    <Forms/>
+                </main>
             </React.Fragment>
          );
     }
