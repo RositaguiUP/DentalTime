@@ -1,25 +1,26 @@
 import React, { Component } from "react";
 import Header from "../components/header";
-import Forms from "../components/form";
+import AgregarForm from "../components/agregar";
 
-class Login extends Component {
+class Agregar extends Component {
   constructor(props) {
     super(props);
     this.state = {
       idUser: this.props.idUser,
-     };
+    };
   }
 
   render() {
     return (
       <React.Fragment>
-        <Header idUser={this.state.idUser}/>
+        <Header idUser={this.state.idUser} />
+        <h1 class="title">Paciente - Agregar</h1>
         <main>
-          <Forms idUser={this.state.idUser}/>
+          <AgregarForm idUser={this.state.idUser} />
         </main>
       </React.Fragment>
     );
   }
 }
 
-export default Login;
+export default Agregar;

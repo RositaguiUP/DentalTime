@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Header from "../components/header";
-import Forms from "../components/form";
+import RegisterForms from "../components/registerForm";
 
-class Login extends Component {
+class Register extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -15,11 +15,11 @@ class Login extends Component {
       <React.Fragment>
         <Header idUser={this.state.idUser}/>
         <main>
-          <Forms idUser={this.state.idUser}/>
+          <RegisterForms />
         </main>
       </React.Fragment>
     );
   }
 }
 
-export default Login;
+export default Register;

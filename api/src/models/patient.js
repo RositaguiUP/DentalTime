@@ -1,23 +1,16 @@
-/*const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 const { stringify } = require('querystring');
 
-const movieSchema = new mongoose.Schema({
-    title: String,
-    director: String,
-    resume: String,
-    description: String,
-    rating: String,
-    genre: String,
-    language: String,
-    producer: String,
-    writer: String,
-    releaseDate: String,
-    streamingRelease: String,
-    earnings: String,
-    duration: String,
-    company: String
+const patientSchema = new mongoose.Schema({
+    name: String,
+    lastName: String,
+    birthday: String,
+    address: String,
+    phone: String,
+    email: String,
+    idUser: String
 });
 
-const Movie = mongoose.model('Movies', movieSchema);
+const Patient = mongoose.model('patients', patientSchema);
 
-module.exports = Movie;*/
+module.exports = Patient;

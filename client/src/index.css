@@ -1,13 +1,225 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  /* font-family: "Fredoka One", cursive; */
+  padding-top: 50px;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* KARLA CAMBIOS */
+.form {
+  width: 75%;
+  margin: auto;
+}
+
+.login {
+  margin: auto;
+  background-color: #f0a048 !important;
+  width: 30%;
+  text-align: center;
+}
+
+.agregar {
+  margin: auto;
+  background-color: #f09735 !important;
+  width: 70%;
+  text-align: center;
+}
+
+.inline {
+  display: flex !important;
+}
+
+.half {
+  width: 45% !important;
+}
+
+.or {
+  padding: 5px;
+  background-color: #f09735 !important;
+}
+
+.formlgt {
+  background-color: #f09735 !important;
+  color: white !important;
+  border: solid white 2px !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white !important;
+  opacity: 1; /* Firefox */
+}
+
+.txtwhite {
+  color: white !important;
+}
+
+.btn {
+  background-color: #14b3ca !important;
+  color: white !important;
+}
+
+.btn:hover {
+  background-color: #1393c2 !important ;
+}
+
+.profilepic {
+  width: 50%;
+  margin: auto;
+}
+
+input:focus {
+  border: solid #14b3ca 3px !important;
+}
+
+.right {
+  float: right;
+}
+
+.w70 {
+  width: 70%;
+  margin: auto;
+}
+
+/* Cambios Charlie */
+.vr {
+  border-left: 3px solid black;
+  height: 470px;
+}
+
+.vr2 {
+  border-left: 3px solid black;
+  height: 400px;
+}
+
+main {
+  padding: 10px 40px 10px 40px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mr45 {
+  margin-right: 45px;
+}
+
+.txtblue {
+  color: #14b3ca !important;
+}
+
+#tabla {
+  height: 570px;
+}
+
+#tablaTrat {
+  height: 500px;
+}
+
+.title {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.center {
+  margin: auto !important;
+  /* display: inline !important; */
+  /* text-align: center !important; */
+}
+
+.right {
+  float: right !important;
+}
+
+.form-title {
+  float: left;
+  color: white;
+}
+
+.specialwidth {
+  width: 50% !important;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+.profilepicsm {
+  width: 70%;
+}
+
+.m-20 {
+  margin-left: -10px;
+}
+
+@media (max-width: 600px) {
+  .profilepicsm {
+    width: 150px;
+  }
+
+  .login {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border: none !important;
+  }
+
+  .agregar {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border: none !important;
+    background-color: #f0a048 !important;
+  }
+
+  main {
+    background-color: #f0a048;
+  }
+
+  .mr45 {
+    margin-right: 0px;
+  }
+
+  body {
+    background-color: #f0a048 !important;
+  }
+
+  .title {
+    color: white;
+  }
+
+  .form-title {
+    font-size: 10px;
+  }
+
+  .userCard {
+    background-color: #f0a048 !important;
+    width: 90%;
+    height: 100%;
+    border: none !important;
+  }
 }
